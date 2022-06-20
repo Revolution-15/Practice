@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-06-10 14:17:29 by Eclipse SUMO GUI Version 1.12.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="my_network.net.xml"/>
+        <route-files value="my_route.rou.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="my_output_file.xml"/>
+    </output>
+
+    <time>
+        <step-length value="0.1"/>
+    </time>
+
+    <processing>
+        <lateral-resolution value="3"/>
+    </processing>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="49633"/>
+    </traci_server>
+
+    <gui_only>
+        <gui-settings-file value="my_gui.gui.xml"/>
+        <start value="true"/>
+        <tracker-interval value="0.1"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+    <tripinfo id="v.0.a.1" depart="0.10" departLane="e1_0" departPos="4.10" departPosLat="0.00" departSpeed="0.00" departDelay="0.00" arrival="109.00" arrivalLane="e6_0" arrivalPos="492.80" arrivalPosLat="0.00" arrivalSpeed="10.00" duration="108.90" routeLength="995.69" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="9.01" rerouteNo="0" devices="tripinfo_v.0.a.1" vType="vtypeauto" speedFactor="1.06" vaporized=""/>
+    <tripinfo id="v.0.c.1" depart="0.10" departLane="e3_0" departPos="4.10" departPosLat="0.00" departSpeed="0.00" departDelay="0.00" arrival="124.20" arrivalLane="e8_0" arrivalPos="492.80" arrivalPosLat="0.00" arrivalSpeed="10.00" duration="124.10" routeLength="995.69" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="23.80" rerouteNo="0" devices="tripinfo_v.0.c.1" vType="vtypeauto" speedFactor="0.83" vaporized=""/>
+</tripinfos>

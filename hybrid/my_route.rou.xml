@@ -1,0 +1,27 @@
+<routes>
+	<vType id="vtypeauto" accel="10" decel="10"  length="4"
+			maxSpeed="10" color="0,0,1" sigma="0.5" lcOpposite="inf" 
+		     />
+	<!-- minGap is controlled by plexe parameters 
+	<gui_only>
+        <lateral-resolution value="1.0"/>
+    </gui_only>
+	-->
+
+	<route id="route_1" edges="e1 e6"/>
+	<route id="route_2" edges="e1 e8"/>
+	<route id="route_3" edges="e1 e7"/>	
+
+	<route id="route_4" edges="e2 e7"/>	
+	<route id="route_5" edges="e2 e5"/>
+	<route id="route_6" edges="e2 e8"/>
+
+	<route id="route_7" edges="e3 e8"/>
+	<route id="route_8" edges="e3 e6"/>	
+	<route id="route_9" edges="e3 e5"/>
+
+	<route id="route_10" edges="e4 e5"/>	
+	<route id="route_11" edges="e4 e7"/>
+	<route id="route_12" edges="e4 e6"/>
+	
+</routes>
